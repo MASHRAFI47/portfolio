@@ -54,4 +54,20 @@ export const galleryData = [
         paragraph: "Modern home management",
         visit: "https://www.mashrafiwebdev.com/smarthome"
     },
+    {
+        id:7,
+        title: "PSD to HTML",
+        image: "https://i.ibb.co/1q8pMsg/Screenshot-2023-12-04-at-22-49-26.webp",
+        heading: "Chef Meals",
+        paragraph: "Restaurant food items site",
+        visit: "https://chef-meals.vercel.app/"
+    },
+    {
+        id:8,
+        title: "Full Stack",
+        image: "https://i.ibb.co/wRm977X/newsportal.webp",
+        heading: "Newsportal Blog",
+        paragraph: "Management including Dashboard",
+        visit: "https://www.mashrafiwebdev.com/newsportal/admin"
+    },
 ]
