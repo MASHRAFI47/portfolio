@@ -1,0 +1,364 @@
+.bannerSection {
+    padding: 120px 0px 60px 0px;
+    background-color: #131317;
+    /* background:linear-gradient(0deg, rgba(20, 19, 19, 0.6), rgba(27, 27, 27, 0.6)), url('../images/banner.webp'); */
+    background-size: cover;
+}
+
+.center {
+    text-align: center;
+}
+
+.myName {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.colorfulText {
+    animation: color-change 10s infinite;
+}
+
+.bannerTexts {
+    position: relative;
+    z-index: 2;
+    margin-left: 50px;
+}
+
+.animate {
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+    position: relative;
+    z-index: 2;
+}
+
+.typeWriterText {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@keyframes animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: white;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+.middle {
+    margin: auto;
+}
+
+
+.js img {
+    width: 70px;
+    position: absolute;
+    z-index: 1;
+    top: 38%;
+    right: 15%;
+    border-radius: 100%;
+    animation: icon 5s ease-in-out infinite;
+}
+
+.php img {
+    width: 80px;
+    position: absolute;
+    z-index: 1;
+    top: 75%;
+    right: 40%;
+    animation: icon 6s ease-in-out infinite;
+    animation-direction: reverse;
+}
+
+.wordpress img {
+    width: 60px;
+    position: absolute;
+    z-index: 1;
+    top: 42%;
+    right: 38%;
+    animation: icon 8s ease-in-out infinite;
+    animation-direction: reverse;
+}
+
+.react img {
+    width: 70px;
+    position: absolute;
+    z-index: 1;
+    top: 62%;
+    right: 7%;
+    animation: icon 4s ease-in-out infinite;
+}
+
+@keyframes icon {
+    0% {
+        margin-top: -20px;
+    }
+
+    50% {
+        margin-top: -5px;
+    }
+
+    100% {
+        margin-top: -20px;
+    }
+}
+
+
+
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    /* CSS */
+
+
+    .bannerTexts {
+        margin-left: 30px;
+    }
+
+    .myName {
+        font-size: 32px;
+    }
+
+    .typeWriterText {
+        font-size: 18px;
+    }
+
+    .js img {
+        width: 50px;
+        top: 20%;
+        right: 10%;
+    }
+
+    .wordpress img {
+        width: 45px;
+        top: 23%;
+    }
+
+    .php img {
+        width: 40px;
+        top: 40%;
+        right: 42%;
+    }
+
+    .react img {
+        width: 45px;
+        top: 35%;
+        right: 2%;
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* CSS */
+    .bannerTexts {
+        margin-left: 30px;
+    }
+
+    .myName {
+        font-size: 32px;
+    }
+
+    .typeWriterText {
+        font-size: 18px;
+    }
+
+    .js img {
+        width: 50px;
+        top: 20%;
+        right: 10%;
+    }
+
+    .wordpress img {
+        width: 45px;
+        top: 23%;
+    }
+
+    .php img {
+        width: 40px;
+        top: 40%;
+        right: 42%;
+    }
+
+    .react img {
+        width: 45px;
+        top: 35%;
+        right: 2%;
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+
+}
+
+
+/* Surface Duo */
+@media (min-width: 540px) and (max-width: 720px) {
+    .js img {
+        width: 55px;
+        top: 45%;
+        right: 22%;
+    }
+
+    .wordpress img {
+        left: 7%;
+        top: 60%;
+    }
+
+    .react img {
+        top: 80%;
+        right: 2%;
+    }
+
+    .php img {
+        width: 60px;
+        top: 90%;
+        left: 3%;
+    }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+    .bannerTexts {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .myName {
+        font-size: 34px;
+    }
+
+    .typeWriterText {
+        font-size: 18px;
+    }
+
+    .js img {
+        width: 50px;
+        top: 38%;
+        right: 15%;
+    }
+
+    .php img {
+        width: 50px;
+        top: 60%;
+        right: 82%;
+    }
+
+    .wordpress img {
+        width: 45px;
+        right: 75%;
+    }
+
+    .react img {
+        width: 40px;
+        right: 2%;
+    }
+}
+
+
+@media (min-width: 1950px) {
+    .bannerTexts {
+        margin-left: 30px;
+    }
+
+    .myName {
+        font-size: 32px;
+    }
+
+    .typeWriterText {
+        font-size: 18px;
+    }
+
+    .js img {
+        width: 60px;
+        top: 20%;
+        right: 27%;
+    }
+
+    .wordpress img {
+        width: 55px;
+        top: 23%;
+        left: 55%;
+    }
+
+    .php img {
+        width: 50px;
+        top: 45%;
+        right: 45%;
+    }
+
+    .react img {
+        width: 70px;
+        top: 47%;
+        right: 20%;
+    }
+}
+
+/* galaxy fold */
+@media (min-width: 280px) and (max-width: 319px) {
+    .bannerTexts {
+        margin-left: 0px;
+    }
+}

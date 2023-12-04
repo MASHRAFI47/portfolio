@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* #4E4E50 #1A1A1D */
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Arvo', serif;
+  color: #C70033;
+}
+p{
+  font-family: 'Arvo', serif;
+  color: #C70033;
+}
+/* navbar starts */
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #C70033;
+  font-family: 'Arvo', serif;
+  font-weight: 600;
+  margin-left:15px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../src/images/hamburger.png");
+}
+
+.navbar-toggler {
+  border: 1px solid #C70033;
+}
+
+.navbar-toggler:active {
+  border: 2px solid #C70033;
+}
+
+/* navbar ends */
+
+
+
+.form-label {
+  color: #dedede;
+}

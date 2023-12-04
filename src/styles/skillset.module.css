@@ -1,0 +1,111 @@
+.skillsetSection {
+    padding: 60px 0px;
+    background-color: #100F12;
+}
+.sectionName {
+  font-weight: 700;
+  font-style: italic;
+}
+.cardIcon {
+    background-color: #17171a;
+    text-align: center;
+    padding: 15px;
+    transition: 0.5s;
+}
+.cardIcon img {
+    width: 80px;
+}
+.cardIcon:hover {
+    margin-top: -10px;
+}
+.iconPara {
+    color: #fff;
+    margin-top: 10px;
+}
+.iconName {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    
+    /* CSS */
+    .cardIcon img {
+        width: 60px;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  @media (min-width: 540px) and (max-width: 720px) {
+    .cardIcon img {
+        width: 60px;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+  }
+
+  @media (min-width: 280px) and (max-width: 319px) {
+    .cardIcon img {
+        width: 60px;
+    }
+  }
